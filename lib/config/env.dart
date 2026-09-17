@@ -7,5 +7,5 @@ class Env {
 
   /// URL de base de l'API backend (ex: http://10.0.2.2:3000/api)
   static String get apiBaseUrl =>
-      dotenv.env['API_BASE_URL'] ?? 'http://10.0.2.2:3000/api';
+      dotenv.env['API_BASE_URL'] ?? 'https://gestion-photo-back.onrender.com/api';
 }
